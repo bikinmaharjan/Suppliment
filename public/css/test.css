@@ -1,0 +1,16 @@
+/* .header{grid-area: h;}
+.selectSupplement{grid-area: c;};
+.selectedSupplement{grid-area: s;};
+.footer{grid-area: f;}; */
+
+
+
+.gridContent{
+    display: grid;
+    grid-template-columns: 30% 20% 50%;
+}
+
+.button{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}

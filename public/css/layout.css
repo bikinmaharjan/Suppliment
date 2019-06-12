@@ -1,0 +1,40 @@
+.grid-container{
+    display:grid;
+    grid-template-columns: 10% 90%;
+
+}
+
+
+.grid-container>div.sidebar{
+    background: #170261;
+    
+}
+
+.grid-container>div.content{
+    display: grid;
+    grid-template-rows: 10% 80% 10%;
+}
+
+div.content>div.header{
+    background: #333333;
+    font-style: italic;
+}
+
+div.content>div.main{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+div.main>div.choose-supplement{
+    background: #04923b;
+}
+
+div.main>div.chosen-supplement{
+    background: #420205;
+}
+
+div.content>div.footer{
+    
+}
+
+
